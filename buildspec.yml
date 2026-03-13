@@ -19,4 +19,4 @@ phases:
       - echo "Built-in variables:"
       - echo "Build ID = $CODEBUILD_BUILD_ID"
       - echo "Build number = $CODEBUILD_BUILD_NUMBER"
-      - echo "Source version = $CODEBUILD_SOURCE_VERSION".
+      - echo "Source version = $CODEBUILD_SOURCE_VERSION"
