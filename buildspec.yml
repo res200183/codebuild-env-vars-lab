@@ -1,0 +1,22 @@
+version: 0.2
+
+env:
+  variables:
+    APP_ENV: dev
+    LOG_LEVEL: debug
+
+phases:
+  install:
+    commands:
+      - echo "Install phase started"
+
+  build:
+    commands:
+      - echo "Environment from buildspec:"
+      - echo "APP_ENV=$APP_ENV"
+      - echo "LOG_LEVEL=$LOG_LEVEL"
+
+      - echo "Built-in variables:"
+      - echo "Build ID = $CODEBUILD_BUILD_ID"
+      - echo "Build number = $CODEBUILD_BUILD_NUMBER"
+      - echo "Source version = $CODEBUILD_SOURCE_VERSION"
