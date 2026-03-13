@@ -38,8 +38,12 @@ This lab shows how to use:
 
 ## Goal of the lab
 
-The goal of this lab is to understand how AWS CodeBuild passes variables into the build environment and how they can be used during the build process.
+The goal of this lab is to understand how AWS CodeBuild passes variables into the build environment and how 
+they can be used during the build process.
 
 ## Notes
 
 This is a training project created for practice related to **AWS Certified DevOps Engineer - Professional (DOP-C02)**.
+## Additional documentation
+
+- [CodeBuild Architecture](docs/codebuild-architecture.md)
